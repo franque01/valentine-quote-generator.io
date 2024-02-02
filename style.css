@@ -42,7 +42,22 @@ div.loveIcon{
         transform: translateY(-100dvh);
     }
 }
-
+@keyframes loveIcon3 {
+    0%{
+        transform: translateY(-50%);
+    }
+    100%{
+        transform: translateY(-100dvh);
+    }
+}
+@keyframes loveIcon7 {
+    0%{
+        transform: translateY(-70%);
+    }
+    100%{
+        transform: translateY(-100dvh);
+    }
+}
 .love1{
     width: 16px;
     animation: loveIcon1 7s ease-out infinite forwards;
@@ -52,7 +67,7 @@ div.loveIcon{
     animation: loveIcon1 9s ease-out infinite forwards;
 }.love3{
     width: 25px;
-    animation: loveIcon1 7.9s ease-out infinite forwards;
+    animation: loveIcon3 7.9s ease-out infinite forwards;
 }.love4{
     width: 22px;
     animation: loveIcon1 9.5s ease-out infinite forwards;
@@ -64,7 +79,7 @@ div.loveIcon{
     animation: loveIcon1 10s ease-out infinite forwards;
 }.love7{
     width: 28px;
-    animation: loveIcon1 7.5s ease-out infinite forwards;
+    animation: loveIcon7 7.5s ease-out infinite forwards;
 }.love8{
     animation: loveIcon1 9.2s ease-out infinite forwards;
 }.love9{
@@ -156,4 +171,12 @@ button{
 }
 button:hover{
     color: #fac5e4;
+}
+@media (max-width: 515px){
+    .controls{
+        padding: 0px 1rem;
+    }
+    .ctrIcons{
+        max-width: 7rem;
+    }
 }
