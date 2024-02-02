@@ -115,6 +115,7 @@ h3{
     display: flex;
     justify-content: center;
     flex: .15 .15 0%;
+    color: red;
 }
 .quoteContent{
     display: flex;
